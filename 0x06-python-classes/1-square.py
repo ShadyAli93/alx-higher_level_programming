@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-"""class square"""
+"""class Square"""
 
 
 class Square:
-    """class square"""
-	
+    """class Square"""
+    __size = None
+
     def __init__(self, size):
+        """size"""
         self.__size = size
+
