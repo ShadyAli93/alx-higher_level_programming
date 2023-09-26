@@ -12,6 +12,10 @@ class Square:
             if size >= 0:
                 self.__size = size
             else:
-                raise ValueError("size must be >= 0")
+                raise ValueError("Size must be >= 0")
         else:
             raise TypeError("size must be an integer")
+
+    def area(self):
+        """Public instance method"""
+        return self.__size * self.__size
