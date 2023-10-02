@@ -47,7 +47,7 @@ class Rectangle:
         return (self.__width * 2) + (self.__height * 2)
     
     def __str__(self):
-        """ ectangle with the character"""
+        """rectangle with the character"""
         string = ""
         if self.__width != 0 and self.__height != 0:
             string += "\n".join("#" * self.__width
