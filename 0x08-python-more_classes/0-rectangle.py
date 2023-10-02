@@ -2,7 +2,7 @@
 """empty class Rectangle."""
 
 
-class Square:
+class Rectangle:
 
     """empty class Rectangle."""
     pass
