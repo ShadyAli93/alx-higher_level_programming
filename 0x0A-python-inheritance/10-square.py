@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" BaseGeometry"""
+"""BaseGeometry"""
 
 
 class BaseGeometry:
@@ -24,3 +24,24 @@ class Rectangle(BaseGeometry):
         self.__width = width
         self.integer_validator("height", height)
         self.__height = height
+
+    def area(self):
+        """rectangle"""
+        return self.__width * self.__height
+
+    def __str__(self):
+        """rectangle"""
+        return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
+		
+		
+class Square(Rectangle):
+    """square"""
+    def __init__(self, size):
+        """square size"""
+        self.integer_validator("size", size)
+        self.__size = size
+        super().__init__(size, size)
+
+    def area(self):
+        """"square"""
+        return self.__size ** 2
