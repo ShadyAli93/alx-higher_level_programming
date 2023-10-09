@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""The lookup function"""
+"""lookup"""
 
 def lookup(obj):
    
