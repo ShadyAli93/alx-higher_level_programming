@@ -2,5 +2,5 @@
 """The lookup function"""
 
 def lookup(obj):
-    """ returns object"""
-    return dir(obj)
+     """ returns object"""
+     return dir(obj)
