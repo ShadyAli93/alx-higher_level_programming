@@ -1,2 +1,3 @@
 --insert in table first_table
-INSERT INTO `first_table` (id, name) VALUES (89, "Holberton School");
+-- Execute: cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+INSERT INTO `first_table` (`id`, `name`) VALUES (89, "Holberton School");
